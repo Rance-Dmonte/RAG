@@ -1,0 +1,5 @@
+Q: What is RAG?
+A: Retrieval-Augmented Generation is a method that combines a retriever with a generator.
+
+Q: What is a vector database?
+A: A database that stores embeddings and allows similarity search.
