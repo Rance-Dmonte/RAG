@@ -3,3 +3,39 @@ A: Retrieval-Augmented Generation is a method that combines a retriever with a g
 
 Q: What is a vector database?
 A: A database that stores embeddings and allows similarity search.
+
+How do embeddings work?
+Embeddings are numerical representations of text meaning, allowing semantic similarity comparisons.
+
+What is cosine similarity?
+Cosine similarity measures the angle between two vectors, showing how similar their meanings are.
+
+Can RAG work with paragraphs instead of Q&A?
+Yes, RAG can process any text chunks, whether Q&A pairs or continuous paragraphs.
+
+What is the role of the generator in RAG?
+The generator uses retrieved context to produce a natural language answer.
+
+What is the role of the retriever in RAG?
+The retriever finds relevant chunks of text based on similarity to the query.
+
+What is FAISS?
+FAISS is a library for efficient similarity search and clustering of dense vectors.
+
+What is LangChain?
+LangChain is a framework for building applications with LLMs, including RAG pipelines.
+
+How does RAG differ from a simple file search?
+RAG uses semantic similarity, not just keyword matching, so it can answer flexible queries.
+
+Can embeddings capture synonyms?
+Yes, embeddings place semantically similar words close together in vector space.
+
+Why split text into chunks?
+Splitting improves retrieval accuracy and prevents overly large embeddings.
+
+Can RAG scale to millions of documents?
+Yes, with vector databases like FAISS, Pinecone, or Weaviate.
+
+What is the benefit of cosine similarity?
+It normalizes vector length and focuses only on direction, making comparisons robust.
